@@ -1,11 +1,7 @@
-const nextConfig = {
-  // SENIOR BYPASS: Ignore strict linting/type errors during rapid prototyping
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
 };
 
 export default nextConfig;
